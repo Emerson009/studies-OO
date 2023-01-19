@@ -24,5 +24,8 @@ public class TestaMetodos {
         }
         System.out.println(conta2.saldo);
         System.out.println(conta.saldo);
-	}
+        
+        conta.titular = "paulo silveira";
+        System.out.println(conta.titular);
+        }
 }
